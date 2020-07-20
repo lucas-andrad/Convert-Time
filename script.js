@@ -8,4 +8,3 @@ function converter(){
     document.body.appendChild(p)
 }
 
-initializing 
