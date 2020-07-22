@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hour to day converter</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="main-title">Hour to day converter</h1>
-    <input type="number" name="number" id="number">
-    <input type="submit" value="convert" onclick="converter()">
-    <div></div>
+    <div>
+        <h1 class="main-title">Hour to day converter</h1>
+        <input type="number" name="number" id="number" placeholder="Type the number here...">
+        <input type="submit" value="convert" onclick="converter()">
+        <p class='result'>
+            <span id="input">_</span>
+            <span>Hours</span>
+            <span>=</span>
+            <span id='output'>_</span>
+            <span>Days</span>
+        </p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

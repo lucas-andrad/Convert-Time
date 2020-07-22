@@ -1,0 +1,27 @@
+body{
+    background-image: url('assets/unnamed.png');
+    background-size: cover;
+}
+
+div{
+    text-align: center;
+    margin-top: 100px;
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 440px;
+    margin-right: 440px;
+    border-radius: 20%;
+}
+
+#output, #input{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-size: 30px;
+}

@@ -1,10 +1,8 @@
 let number = document.getElementById('number')
+let input = document.getElementById('input')
+let output = document.getElementById('output')
 
-function converter(){
-    console.log(number.value)
-    let result = number.value/24
-    let p = document.createElement("p")
-    p.innerHTML = result
-    document.body.appendChild(p)
+function converter(){ 
+    input.innerHTML = number.value 
+    output.innerHTML = number.value/24
 }
-
