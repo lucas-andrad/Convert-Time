@@ -9,14 +9,38 @@
 <body>
     <div>
         <h1 class="main-title">Hour to day converter</h1>
+        <div id="">        
+            <select name="Time" id="option1">
+                <option value="Years">Years</option>
+                <option value="Months">Months</option>
+                <option value="Weeks">Weeks</option>
+                <option value="Days">Days</option>
+                <option value="Hours">Hours</option>
+                <option value="Minutes">Minutes</option>
+                <option value="Seconds">Seconds</option>
+            </select>
+        </div>
+
+        <div id="">        
+            <select name="Time" id="option2">[
+                <option value="Years">Years</option>
+                <option value="Months">Months</option>
+                <option value="Weeks">Weeks</option>
+                <option value="Days">Days</option>
+                <option value="Hours">Hours</option>
+                <option value="Minutes">Minutes</option>
+                <option value="Seconds">Seconds</option>
+            </select>
+        </div>
+
         <input type="number" name="number" id="number" placeholder="Type the number here...">
         <input type="submit" value="convert" onclick="converter()">
         <p class='result'>
             <span id="input">_</span>
-            <span>Hours</span>
+            <span id='TimeInput'>Hours</span>
             <span>=</span>
             <span id='output'>_</span>
-            <span>Days</span>
+            <span id='TimeOutput'>Days</span>
         </p>
     </div>
     <script src="script.js"></script>
