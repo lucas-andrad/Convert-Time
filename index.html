@@ -4,37 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hour to day converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link rel="sortcut icon" href="assets/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1 class="main-title">Hour to day converter</h1>
-        <div id="">        
+    <div class="main">
+        <h1 class="main-title">CONVERT TIME</h1>
+        <p>SELECT THE TIME</p>
+
+        <div>
             <select name="Time" id="option1">
-                <option value="Years">Years</option>
-                <option value="Months">Months</option>
-                <option value="Weeks">Weeks</option>
+                <option value="" selected disabled hidden>Choose a option</option>
+                <option value="Days">Days</option>
+                <option value="Hours">Hours</option>
+                <option value="Minutes">Minutes</option>
+                <option value="Seconds">Seconds</option>
+            </select>
+            <span>TO</span>
+            <select name="Time" id="option2">
+                <option value="" selected disabled hidden>Choose a option</option>
                 <option value="Days">Days</option>
                 <option value="Hours">Hours</option>
                 <option value="Minutes">Minutes</option>
                 <option value="Seconds">Seconds</option>
             </select>
         </div>
-
-        <div id="">        
-            <select name="Time" id="option2">[
-                <option value="Years">Years</option>
-                <option value="Months">Months</option>
-                <option value="Weeks">Weeks</option>
-                <option value="Days">Days</option>
-                <option value="Hours">Hours</option>
-                <option value="Minutes">Minutes</option>
-                <option value="Seconds">Seconds</option>
-            </select>
-        </div>
-
+            
         <input type="number" name="number" id="number" placeholder="Type the number here...">
-        <input type="submit" value="convert" onclick="converter()">
+        <input id="submit" type="submit" value="CONVERT" onclick="converter()">
         <p class='result'>
             <span id="input">_</span>
             <span id='TimeInput'>Hours</span>
