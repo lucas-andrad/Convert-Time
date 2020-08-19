@@ -8,13 +8,13 @@
 <p>In the terminal, clone the project</p>
 
 ~~~shell
-git clone https://github.com/lucas-andrad/tictactoe.git
+git clone https://github.com/lucas-andrad/Convert-Time.git
 ~~~
 
-<p>Before, enter in the folder</p>
+<p>Before, enter in the folder
 
 ~~~shell
-cd tictactoe
+cd Convert-Time
 ~~~
 
 <p>Finally, open the index.html file.</p>
